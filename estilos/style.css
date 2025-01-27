@@ -117,13 +117,13 @@ form > input[type=submit]:hover {
 }
 
 form > a.botao {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1em;
     width: 100%;
     height: 40px;
     margin-top: 5px;
-    padding-top: 5px;
     background-color: white;
     color: #2d6462;
     border: 1px solid #49a09d;
@@ -137,5 +137,8 @@ form > a.botao:hover {
 
 form > a.botao > span {
     font-size: 1.2em;
-    transform: translatey(4px);
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
